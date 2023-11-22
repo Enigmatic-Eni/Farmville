@@ -1,0 +1,21 @@
+/* Style the tab */
+.tab {
+    align-items: center;
+      overflow: hidden;
+    }
+    
+    /* Style the buttons that are used to open the tab content */
+    .tab button {
+      background-color: inherit;
+      float: left;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      padding: 8px 16px;
+      transition: 0.3s;
+    }
+     /* Create an active/current tablink class */
+ .tab button.active {
+    color: #10B981;
+    border-bottom: #10B981 2px solid;
+ }
